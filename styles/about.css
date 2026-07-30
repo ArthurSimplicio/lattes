@@ -1,0 +1,22 @@
+.about h2{
+    text-align: center;
+    margin: 20px 0  20px 0;
+}
+.about p{
+    font-weight: 600    ;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.about ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.about ul li {
+    font-weight: 600;
+}
+@media(max-width:768px){
+    .about ul {
+        display: flex;
+        flex-direction: column;
+    }
+}

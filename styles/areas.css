@@ -1,0 +1,10 @@
+.areas h2 {
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+.areas ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
